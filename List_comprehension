@@ -1,0 +1,14 @@
+
+#first_ques_solution
+user_input = int(input("Enter a number: "))
+odd_numbers= [num for num in range(1, user_input) if num % 2 != 0]
+
+print("Odd numbers under the user input:", odd_numbers)
+
+
+#second_ques_solution
+fruits =["orange","apple","banana","mango","lichi"]
+
+capfruits =[fruit.capitalize() for fruit in fruits]
+
+print(capfruits)
